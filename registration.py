@@ -9,7 +9,7 @@ def register_party(parties):
         else:
             print(f"The party '{party_name}' does not meet the minimum membership requirement for registration.")
 
-# Example usage:
+
 parties = [
     {"party_name": "ANC", "reg_number": 1, "member_count": 1500},
     {"party_name": "EFF", "reg_number": 2, "member_count": 800},
