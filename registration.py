@@ -10,4 +10,18 @@ def register_party(parties):
         else:
             print(f"The party '{party_name}' does not meet the minimum membership requirement for registration.")
 
+parties = [
+    {"party_name": "EFF", "reg_number": 1, "member_count": 1500},
+    {"party_name": "ANC", "reg_number": 2, "member_count": 800},
+    {"party_name": "IFP", "reg_number": 3, "member_count": 1200}
+]
+
 register_party(parties)
+
+#2.2
+last_registered_party_number = 1050
+
+new_party_registration_number = last_registered_party_number + 1
+new_party = {"party_name": "MK", "reg_number": new_party_registration_number, "member_count": 5300}
+
+register_party([new_party])

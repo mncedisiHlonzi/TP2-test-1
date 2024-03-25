@@ -10,7 +10,7 @@ def update_voter_info(voter_info, voter_id, name, voting_district, has_voted):
 
 #2.6
 voters = {
-    1: {"name": "John", "registered": True},
+    1: {"name": "Mnced", "registered": True},
     2: {"name": "Jane", "registered": False},
     3: {"name": "Jack", "registered": True}
 }
